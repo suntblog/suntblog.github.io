@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://suntblog.top/</id>
+    <title>suntblog</title>
+    <updated>2024-01-23T13:54:46.497Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://suntblog.top/"/>
+    <link rel="self" href="https://suntblog.top/atom.xml"/>
+    <subtitle>别再emo，让我肩膀做你枕头</subtitle>
+    <logo>https://suntblog.top/images/avatar.png</logo>
+    <icon>https://suntblog.top/favicon.ico</icon>
+    <rights>All rights reserved 2024, suntblog</rights>
+    <entry>
+        <title type="html"><![CDATA[正交表]]></title>
+        <id>https://suntblog.top/post/zheng-jiao-biao/</id>
+        <link href="https://suntblog.top/post/zheng-jiao-biao/">
+        </link>
+        <updated>2023-11-21T08:26:28.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="正交表的构成">正交表的构成</h1>
+<ol>
+<li>
+<p>因数与水平<br>
+在理解正交表的构成之前，需要先理解进行正交试验因素与水平的概念。<br>
+因素：指实验中的变量；例如温度、时间、催化剂种类，共三因素。<br>
+水平：指实验因素的不同取值；例如温度分为30℃、50℃、80℃，那么代表温度这个因素是三水平。<br>
+通常形容正交试验时，直接说进行几因素几水平正交试验，例如三因素三水平正交试验。</p>
+</li>
+<li>
+<p>表示形式<br>
+L表示正交表，行数表示需要进行的实验次数；因素数代表实验中变量的个数，即正交表中列的个数；水平数代表每个因素的水平数。其中行数=因素数*（水平数-1）+1<br>
+举例说明：例如正交表L，L右下角数字“9”表示有9行，即需要做9次实验。括号内指数“4”代表有4列，即最多可观察4个因素。括号内数“3”表示每个因素均为3水平，即表的主体部分只有数字1,2,3，分别代表水平1,2,3。四因素三水平试验如果进行全面试验需要进行3的4次方=81次实验，而进行正交试验只需要进行9次即可，大大增加了实验效率。四因素三水平正交设计表如下图所示：</p>
+</li>
+<li>
+<p>因子 （因素）<br>
+PH 硫酸根含量 氯含量 钙含量 碳酸氢根含量</p>
+</li>
+<li>
+<p>水平（非聚类，只用直方图）<br>
+PH  7.5 8 8.25<br>
+硫酸根含量 600 1000 1500<br>
+氯含量 3200 4700 6500<br>
+钙含量  380 550 750<br>
+碳酸氢根含量 130 320 470</p>
+</li>
+<li>
+<p>水平 （聚类 4个）<br>
+PH 7.08 7.52 8.03 8.51<br>
+硫酸根含量 101.23  605.89 1005.02 1866.86<br>
+氯含量 89.79 326.90 532 1323<br>
+钙含量 84.94  235.11 441.7 1018<br>
+碳酸氢根含量  94.63 276.44 383.23 570.01</p>
+</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[大论文目录]]></title>
+        <id>https://suntblog.top/post/da-lun-wen-mu-lu/</id>
+        <link href="https://suntblog.top/post/da-lun-wen-mu-lu/">
+        </link>
+        <updated>2023-11-08T12:11:32.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="主要部分">主要部分</h1>
+<ul>
+<li>实验</li>
+<li>数据库</li>
+<li>机器学习</li>
+</ul>
+<h1 id="结构">结构</h1>
+<ol>
+<li>绪论<br>
+1.1 研究背景<br>
+1.2 国内外研究现状<br>
+1.3 研究内容及技术路线<br>
+1.4 研究意义</li>
+<li>试验研究方案<br>
+2.1 实验材料<br>
+2.2 实验设备<br>
+2.3 实验原理<br>
+2.4 实验流程<br>
+2.5 测试与表征<br>
+2.6 机器学习算法与数据预处理</li>
+<li>液压支架立柱激光熔覆铁基合金涂层组织和耐蚀性研究<br>
+3.1 激光熔覆涂层显微组织<br>
+3.2 激光熔覆涂层物相分析<br>
+3.3 激光熔覆涂层硬度分析<br>
+3.4 激光熔覆涂层电化学分析</li>
+<li>基于机器学习的液压支架立柱激光熔覆涂层腐蚀数据预测<br>
+4.1 支持向量机回归算法<br>
+4.2 遗传算法<br>
+4.3 基于GA-SVR的激光熔覆涂层腐蚀数据预测算法<br>
+4.4 Optuna 超参数框架与CatBoostRegressor 算法<br>
+4.5 基于Optuna 超参数自动优化的Catboost 的激光熔覆涂层腐蚀数据预测算法<br>
+4.6 实验结果与分析</li>
+<li>总结</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[生活随笔]]></title>
+        <id>https://suntblog.top/post/sheng-huo-sui-bi/</id>
+        <link href="https://suntblog.top/post/sheng-huo-sui-bi/">
+        </link>
+        <updated>2023-07-25T13:36:44.000Z</updated>
+        <summary type="html"><![CDATA[<p>童真的光</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>童真的光</p>
+<!-- more -->
+<p>💬这两天姑姑两小孩子在我这，就突然明白养小孩的意义，不止是传宗接代，看见他们的活泼开朗，更多打破自己烦闷愁郁的心境，中医讲，气大伤身，人们都说岁数大了就会想很多，什么都需要去考虑，看到小孩子，人家活泼，生气了打一顿，过一会就又和妈妈和好了，而我们常常把心事放心底，那种无奈，不甘，与烦闷，终究让心气郁结，小时候的无忧无虑，终究换为一颗子弹，穿越时光，击中二十多岁自己的心脏。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[机器学习小综述]]></title>
+        <id>https://suntblog.top/post/ji-qi-xue-xi-zai-mei-kuang-jing-xia-huan-jing-fu-shi-ping-gu-yu-yu-ce-ling-yu-de-yan-jiu-xian-zhuang/</id>
+        <link href="https://suntblog.top/post/ji-qi-xue-xi-zai-mei-kuang-jing-xia-huan-jing-fu-shi-ping-gu-yu-yu-ce-ling-yu-de-yan-jiu-xian-zhuang/">
+        </link>
+        <updated>2023-06-19T08:19:16.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="一-初定题目">一： 初定题目</h1>
+<p>机器学习在煤矿井下环境腐蚀评估与预测领域的研究现状</p>
+<h1 id="二选定研究对象">二：选定研究对象</h1>
+<ol>
+<li>井下腐蚀 影响因素 的权重大小</li>
+<li>腐蚀速率预测</li>
+</ol>
+<h1 id="三-论文结构">三： 论文结构</h1>
+<ol>
+<li>研究背景：主要介绍，常见的机器学习算法，在井下腐蚀中的应用</li>
+<li>分析归纳总结：各个学者的研究现状</li>
+<li>总结与展望：数据库系统建立的不完善、常见机器学习算法的优缺点、对各种算法的总结和研究</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[辰华电化学工作站教程]]></title>
+        <id>https://suntblog.top/post/chen-hua-dian-hua-xue-gong-zuo-zhan-jiao-cheng/</id>
+        <link href="https://suntblog.top/post/chen-hua-dian-hua-xue-gong-zuo-zhan-jiao-cheng/">
+        </link>
+        <updated>2023-06-03T01:59:29.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="前期准备">前期准备</h1>
+<ol>
+<li>连好三电极
+<ul>
+<li>红的是对电极 连的Pt网</li>
+<li>绿的是工作电极</li>
+<li>白的是参比电极，AgCl</li>
+</ul>
+</li>
+<li>打开电源，再打开工作界面</li>
+</ol>
+<h1 id="开路电位-1">开路电位-1</h1>
+<ol>
+<li>
+<p>打开工作界面，点击<strong>T</strong> ，点击最后OCPT ，测试开路电位<br>
+<img src="https://gitee.com/suntblog/img/raw/master/img/%E5%BC%80%E8%B7%AF%E5%8D%95%E4%BD%8D-1.png" referrerpolicy="no-referrer" style="margin: auto;" /></p>
+</li>
+<li>
+<p>设置参数</p>
+<ul>
+<li>参数第一个是：测试的时间 （如果材料稳定，时间可以短点，通常可以长点，使材料处于稳定状态）</li>
+<li>第二个是：测试的间隔</li>
+<li>第三个是：高电位（一般足够大，可以包括，辰华最大正负10）</li>
+<li>第四个是：低电位<br>
+<img src="https://gitee.com/suntblog/img/raw/master/img/%E5%BC%80%E8%B7%AF%E5%8D%95%E4%BD%8D-2.png" referrerpolicy="no-referrer" style="margin: auto;" /></li>
+</ul>
+</li>
+<li>
+<p>开始运行（点击三角）<br>
+<img src="https://gitee.com/suntblog/img/raw/master/img/%E5%BC%80%E8%B7%AF%E5%8D%95%E4%BD%8D-3.png" referrerpolicy="no-referrer" style="margin: auto;" /></p>
+</li>
+<li>
+<p>运行结束后，数据储存，可以存为csv，txt格式<br>
+<img src="https://gitee.com/suntblog/img/raw/master/img/%E5%BC%80%E8%B7%AF%E5%8D%95%E4%BD%8D-4.png" referrerpolicy="no-referrer" style="margin: auto;" /></p>
+</li>
+</ol>
+<h1 id="开路电位-2">开路电位-2</h1>
+<p>还有一种方法，打开Control，选中下拉框中的open circuit potential，也会得到一个值，可以当作参考<br>
+<img src="https://gitee.com/suntblog/img/raw/master/img/%E5%BC%80%E8%B7%AF%E5%8D%95%E4%BD%8D-5.png" referrerpolicy="no-referrer" style="margin: auto;" /></p>
+<h1 id="阻抗">阻抗</h1>
+<ol>
+<li>选择IMP-AC<br>
+<img src="https://gitee.com/suntblog/img/raw/master/img/%E9%98%BB%E6%8A%97-1.png" referrerpolicy="no-referrer" style="margin: auto;" /></li>
+<li>设置参数
+<ul>
+<li>Init E 电位选择开路电位</li>
+<li>设置频率（高频，10<sup>5</sup>，低频，10<sup>-2</sup>）</li>
+<li>振幅 （一般5mv，最高不超10mv）</li>
+<li>时间，2s就行<br>
+<img src="https://gitee.com/suntblog/img/raw/master/img/%E9%98%BB%E6%8A%97-2.png" referrerpolicy="no-referrer" style="margin: auto;" /></li>
+</ul>
+</li>
+<li>开始运行（点击三角）</li>
+<li>生成的图是波特图，左边是模值，右边是相位角<br>
+<img src="https://gitee.com/suntblog/img/raw/master/img/%E9%98%BB%E6%8A%97-3.png" referrerpolicy="no-referrer" style="margin: auto;" /></li>
+<li>点右键-点Finish Experiment 生成奈奎斯特图<br>
+<img src="https://gitee.com/suntblog/img/raw/master/img/%E9%98%BB%E6%8A%97-4.png" referrerpolicy="no-referrer" style="margin: auto;" /></li>
+</ol>
+<h1 id="塔菲尔">塔菲尔</h1>
+<ol>
+<li>选择Tafel<br>
+<img src="https://gitee.com/suntblog/img/raw/master/img/%E5%A1%94%E8%8F%B2%E5%B0%94-1.png" referrerpolicy="no-referrer" style="margin: auto;" /></li>
+<li>设置参数
+<ul>
+<li>Init E (起始电位，一般为开路电位正负0.5V，左右，0.8V也行)</li>
+<li>Final E （终止电位）</li>
+<li>Scane Rate (扫描速率，可以设置成0.001)（1V=1000mv)</li>
+<li>Sensitivity (灵敏度，一般选-2)（勾选上Auto 自动调节）</li>
+<li>其余参数不变<br>
+<img src="https://gitee.com/suntblog/img/raw/master/img/%E5%A1%94%E8%8F%B2%E5%B0%94-2.png" referrerpolicy="no-referrer" style="margin: auto;" /></li>
+</ul>
+</li>
+<li>开始运行（点击三角）</li>
+<li>测试完开始分析</li>
+</ol>
+<ul>
+<li>选择Analysis，下拉框中，选择最后一个，特别分析</li>
+<li>可以设置阴阳极的区间（不设置也行）</li>
+<li>点fit 拟合 （得到阴阳极斜率，截距，腐蚀电流，腐蚀电阻）</li>
+<li>点ok<br>
+<img src="https://gitee.com/suntblog/img/raw/master/img/%E5%A1%94%E8%8F%B2%E5%B0%944-.png" referrerpolicy="no-referrer" style="margin: auto;" /><br>
+<img src="https://gitee.com/suntblog/img/raw/master/img/%E5%A1%94%E8%8F%B2%E5%B0%945-.png" referrerpolicy="no-referrer" style="margin: auto;" /></li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BP神经网络&遗传算法GA]]></title>
+        <id>https://suntblog.top/post/bp-shen-jing-wang-luo/</id>
+        <link href="https://suntblog.top/post/bp-shen-jing-wang-luo/">
+        </link>
+        <updated>2023-05-13T14:10:00.000Z</updated>
+        <content type="html"><![CDATA[<p>先学算法 bv11K4y1h7MD<br>
+再下载代码和数据，弄懂程序</p>
+<h1 id="bp神经网络简介">BP神经网络简介</h1>
+<ol>
+<li>BP神经网络的结构</li>
+<li>感知器——BP神经网络的单个节点</li>
+<li>BP神经网络的核心步骤</li>
+<li>BP神经网络的正向传播与反向传播</li>
+<li>通过迭代的方法寻找函数的最小值</li>
+<li>BP神经网络反向传播——选择算法：梯度下降法（下降最快）</li>
+<li>图解法讲解正向传播与反向传播</li>
+<li>局部梯度</li>
+<li>特殊运算结构</li>
+<li>总结：
+<ul>
+<li>梯度下降+损失函数+求导链法则=最后的权重迭代更新</li>
+<li>损失函数就是目标函数</li>
+</ul>
+</li>
+</ol>
+<h2 id="bp神经网络-代码部分">BP神经网络 代码部分</h2>
+<ol>
+<li>定义training_set_inputs 输入数据   training_set_inputs 输出数据<br>
+制定一组规范，比如输入（1 0 0）（2 0 0）输出（1）（2）</li>
+<li>训练好模型以后，输入（3 0 0）应该输出（3）机器输出2.99999，训练成功</li>
+</ol>
+<h1 id="遗传算法-bv14a411c7s8-启发式算法-迭代寻找解">遗传算法  BV14a411C7s8  （启发式算法 迭代寻找解）</h1>
+<ol>
+<li>基本原理：交叉 变异 <img src="https://gitee.com/suntblog/img/raw/master/img/%E9%81%97%E4%BC%A0%E7%AE%97%E6%B3%95%E5%8E%9F%E7%90%86.png" referrerpolicy="no-referrer" style="margin: auto;" /></li>
+<li>编码：常见就是把值转换成二进制，二进制有1，0，方便交叉变异，为每一个数值分配一个独一无二的解</li>
+<li>解码：当前串是第几个串，可以使用二进制转十进制得到</li>
+<li>复制：找一个好的，去代替掉那个差的<img src="https://gitee.com/suntblog/img/raw/master/img/%E9%81%97%E4%BC%A0%E7%AE%97%E6%B3%95%E5%A4%8D%E5%88%B6.png" referrerpolicy="no-referrer" style="margin: auto;" /></li>
+<li>交叉：可以按顺序，也可以随机<img src="https://gitee.com/suntblog/img/raw/master/img/%E9%81%97%E4%BC%A0%E7%AE%97%E6%B3%95%E4%BA%A4%E5%8F%89.png" referrerpolicy="no-referrer" style="margin: auto;" /></li>
+<li>变异：可以都变异，也可以按适应度变异<img src="https://gitee.com/suntblog/img/raw/master/img/%E9%81%97%E4%BC%A0%E7%AE%97%E6%B3%95%E5%8F%98%E5%BC%82.png" referrerpolicy="no-referrer" style="margin: auto;" /></li>
+<li>算法实现  <img src="https://gitee.com/suntblog/img/raw/master/img/%E9%81%97%E4%BC%A0%E7%AE%97%E6%B3%95%E7%AE%97%E6%B3%95%E5%AE%9E%E7%8E%B0.png" referrerpolicy="no-referrer" style="margin: auto;" /></li>
+</ol>
+<h2 id="启发式算法的算法策略">启发式算法的算法策略</h2>
+<p><strong>保底机制+更新策略=寻得优解</strong><br>
+代码的思想非常简单，随机生成一个初始解，每次循环再随机生成一个解，如果新的解比旧解好，就<br>
+更新 (择优进化)，否则不更新。</p>
+<h1 id="针对课题算法的总结">针对课题算法的总结</h1>
+<ol>
+<li>BP神经网络是神经网络的经典算法，具有很强的自我学习能力，它可以在不清楚具体函数关系的情况下，通过学习输入数据即可获得输入与输出之间的映射关系，非常适合腐蚀速率预测问题的求解。</li>
+<li>BP神经网络在实际应用过程中具有收敛速度缓慢和易陷入局部最优的缺陷，该缺陷对BP神经网络的应用效果影响很大。因此，针对BP神经网络收敛缓慢的问题，对腐蚀因素进行PCA主成分分析 处理，并将处理结果作为网络输入，目的是减少输入层神经元个数、优化网络结构、降低计算量、加快网络的收敛速度。</li>
+<li>针对BP神经网络在网络训练时易陷入局部最优的问题，通过GA算法超强的搜索能力来优化其网络权值降低其陷入局部最优的概率。</li>
+<li>综上，PCA算法具有很强的特征提取能力，且可以最大程度的保留数据的原始信息。GA算法的整体搜索策略不受连续、可微的要求，适用条件非常宽泛，同时具有并行性，使其善于解决繁琐的非线性优化问题。BP神经网络拥有很强的学习和泛化能力，将PCA算法、GA算法和BP神经网络的优势相结合，构PCA-GA-BP神经网络模型来进行腐蚀速率预测，该网络不但能够克服BP神经网络的缺陷，还能进一步提高腐蚀速率预测的精度。</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[毕业大论文——矿井水数据的整理]]></title>
+        <id>https://suntblog.top/post/bi-ye-da-lun-wen-kuang-jing-shui-shu-ju-de-zheng-li/</id>
+        <link href="https://suntblog.top/post/bi-ye-da-lun-wen-kuang-jing-shui-shu-ju-de-zheng-li/">
+        </link>
+        <updated>2023-03-31T06:52:18.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="一研究问题">一：研究问题</h1>
+<ol>
+<li>不同矿井水环境下，液压支架常用钢种（或涂层）的腐蚀速率<br>
+<strong>（可以先对一种钢材或涂层做实验)（如果时间充足，把要研究的涂层都预测一下）</strong></li>
+<li>总结论文数据，模拟矿井水环境下，不锈钢的腐蚀速率（不锈钢可能不是同一批次不锈钢）</li>
+</ol>
+<h1 id="二所需数据的类型">二：所需数据的类型</h1>
+<ol>
+<li>电化学电位 (mv)</li>
+<li>自腐蚀电流密度</li>
+<li>矿井水的PH值</li>
+<li>硫酸根含量 (mg/L)</li>
+<li>氯离子含量  (mg/L)</li>
+<li>年腐蚀速率（通过拟合再计算得到）</li>
+<li>极化电阻 （通过拟合再计算得到）</li>
+<li>氟离子含量 (mg/L)</li>
+</ol>
+<h1 id="三液压支架腐蚀数据表">三：液压支架腐蚀数据表</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">煤矿名称</th>
+<th style="text-align:center">电化学电位</th>
+<th style="text-align:center">自腐蚀电流密度</th>
+<th style="text-align:center"><font color="red">PH</font></th>
+<th style="text-align:center"><font color="red">硫酸根含量</font></th>
+<th style="text-align:center"><font color="red">氯离子含量</font></th>
+<th style="text-align:center">年腐蚀速率</th>
+<th style="text-align:center">极化电阻</th>
+<th style="text-align:center"><font color="red">钙离子含量</font></th>
+<th style="text-align:center"><font color="red">碳酸氢根离子含量</font></th>
+</tr>
+</thead>
+</table>
+<h1 id="四矿井水数据来源">四：矿井水数据来源</h1>
+<ul>
+<li><a href="http://www.ttbz.org.cn/StandardManage/Detail/36612">山西省煤炭地质工程协会发布的TSXDZ 042—2020《矿井水化学数据库技术标准》</a></li>
+<li><a href="https://baike.baidu.com/item/%E7%85%A4%E7%9F%BF%E7%9F%BF%E4%BA%95%E6%B0%B4%E5%A4%84%E7%90%86%E5%88%A9%E7%94%A8%E5%B7%A5%E8%89%BA%E6%8A%80%E6%9C%AF%E4%B8%8E%E8%AE%BE%E8%AE%A1/22253444?fr=aladdin">煤矿矿井水处理利用工艺技术与设计</a></li>
+<li><a href="https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7iLik5jEcCI09uHa3oBxtWoD8VK2Ubs1Wpv0Bx6xpSMYSBefzHQ8k75I2FNO-X9XD_&amp;uniplatform=NZKPT">文献：高矿化度矿井水用于燃煤锅炉除尘脱硫的可行性研究</a></li>
+<li><a href="https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7ioT0BO4yQ4m_mOgeS2ml3UHbZaP18z1gJArM5CIvJcDUmd12pn4dDXDs4iKqERTxY&amp;uniplatform=NZKPT">文献：神东矿区矿井水对锚索腐蚀影响实验研究</a></li>
+<li><a href="https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKgchrJ08w1e7M8Tu7YZds8-CGxaztL_uxiMtnsgmm7x49rwUyueMMXoj7HNf94V063wRugQgzWRf&amp;uniplatform=NZKPT">文献：山西高阳煤矿奥陶系峰峰组含水层赋存特征</a></li>
+<li><a href="https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKu87-SJxoEJu6LL9TJzd50nVTOz4KjqekVnwKyK6C3CJ2a2or4GgGBBLU6KmWDzYXT61AC5TudSk&amp;uniplatform=NZKPT">文献：蒙陕接壤区浅埋煤层矿井水水化学特征及来源分析</a></li>
+<li><a href="https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKu87-SJxoEJu6LL9TJzd50kTNcLWmQy5qWt4_H3PesC-CyEsPMZVB6TdR5G4IQOGpgW2ldsLCjfn&amp;uniplatform=NZKPT">文献：矿井水水化学特征及资源化利用研究——以张集煤矿为例</a></li>
+</ul>
+<h1 id="五矿井水数据整理s-cl-hco3-ca">五：矿井水数据整理（S、Cl、HCO<sub>3</sub>、Ca)</h1>
+<ol>
+<li>布尔台矿井</li>
+</ol>
+<ul>
+<li>PH  8.3</li>
+<li>硫酸根含量（mg/L 下同）68.6</li>
+<li>氯离子含量  265.3<br>
+- 钙离子含量  12.3</li>
+<li>碳酸氢根离子含量  20.6</li>
+</ul>
+<ol start="2">
+<li>东欢坨矿</li>
+</ol>
+<ul>
+<li>PH  7.46</li>
+<li>硫酸根含量（mg/L 下同）16</li>
+<li>氯离子含量  6</li>
+<li>钙离子含量  32.0977</li>
+<li>碳酸氢根离子含量 143.39</li>
+</ul>
+<ol start="3">
+<li>范各庄矿</li>
+</ol>
+<ul>
+<li>PH  7.7</li>
+<li>硫酸根含量（mg/L 下同）14.305</li>
+<li>氯离子含量  35.45</li>
+<li>钙离子含量  89.88</li>
+<li>碳酸氢根离子含量 336.65</li>
+</ul>
+<ol start="4">
+<li>荆各庄矿</li>
+</ol>
+<ul>
+<li>PH  8.4</li>
+<li>硫酸根含量（mg/L 下同）57.7</li>
+<li>氯离子含量  2.6</li>
+<li>钙离子含量 11.95</li>
+<li>碳酸氢根离子含量  255.6</li>
+</ul>
+<ol start="5">
+<li>林西矿</li>
+</ol>
+<ul>
+<li>PH  8.1</li>
+<li>硫酸根含量（mg/L 下同）574</li>
+<li>氯离子含量  11.8</li>
+<li>钙离子含量  112.27</li>
+<li>碳酸氢根离子含量 296.12</li>
+</ul>
+<ol start="6">
+<li>马家沟矿</li>
+</ol>
+<ul>
+<li>PH  7.8</li>
+<li>硫酸根含量（mg/L 下同）116</li>
+<li>氯离子含量  7.7</li>
+<li>钙离子含量  107.4135</li>
+<li>碳酸氢根离子含量 342.88</li>
+</ul>
+<ol start="7">
+<li>唐山矿</li>
+</ol>
+<ul>
+<li>PH  7</li>
+<li>硫酸根含量（mg/L 下同）59.5</li>
+<li>氯离子含量  3.1</li>
+<li>钙离子含量  58.449</li>
+<li>碳酸氢根离子含量  374</li>
+</ul>
+<ol start="8">
+<li>赵各庄矿</li>
+</ol>
+<ul>
+<li>PH  7</li>
+<li>硫酸根含量（mg/L 下同）0.009</li>
+<li>氯离子含量  8.4</li>
+<li>钙离子含量 127.34</li>
+<li>碳酸氢根离子含量 364.7</li>
+</ul>
+<ol start="9">
+<li>内蒙古乌素矿</li>
+</ol>
+<ul>
+<li>PH  9.0</li>
+<li>硫酸根含量（mg/L 下同）1026.3</li>
+<li>氯离子含量  412.7</li>
+<li>钙离子含量 240.5</li>
+<li>碳酸氢根离子含量 421.6</li>
+</ul>
+<ol start="10">
+<li>徐州张集矿</li>
+</ol>
+<ul>
+<li>PH  7.5</li>
+<li>硫酸根含量（mg/L 下同）472</li>
+<li>氯离子含量  250.4</li>
+<li>钙离子含量  104.0</li>
+<li>碳酸氢根离子含量  416.0</li>
+</ul>
+<ol start="11">
+<li>淄博双沟矿</li>
+</ol>
+<ul>
+<li>PH  7.7</li>
+<li>硫酸根含量（mg/L 下同）882</li>
+<li>氯离子含量  182</li>
+<li>钙离子含量 192.0</li>
+<li>碳酸氢根离子含量  257.0</li>
+</ul>
+<ol start="12">
+<li>淮北临涣矿</li>
+</ol>
+<ul>
+<li>PH  8.1</li>
+<li>硫酸根含量（mg/L 下同）1589.6</li>
+<li>氯离子含量  213</li>
+<li>钙离子含量  441.7</li>
+<li>碳酸氢根离子含量 320.3</li>
+</ul>
+<ol start="13">
+<li>新汶全沟矿</li>
+</ol>
+<ul>
+<li>PH  8.0</li>
+<li>硫酸根含量（mg/L 下同）1094.5</li>
+<li>氯离子含量  107.7</li>
+<li>钙离子含量 242.9</li>
+<li>碳酸氢根离子含量 98.8</li>
+</ul>
+<ol start="14">
+<li>宁夏灵新矿</li>
+</ol>
+<ul>
+<li>PH  8.2</li>
+<li>硫酸根含量（mg/L 下同）884.3</li>
+<li>氯离子含量  1193.6</li>
+<li>钙离子含量  124.0</li>
+<li>碳酸氢根离子含量  391.8</li>
+</ul>
+<ol start="15">
+<li>淮北海孜矿</li>
+</ol>
+<ul>
+<li>PH  8.5</li>
+<li>硫酸根含量（mg/L 下同）1028</li>
+<li>氯离子含量  146</li>
+<li>钙离子含量  78.6</li>
+<li>碳酸氢根离子含量  355.0</li>
+</ul>
+<ol start="16">
+<li>宁夏石槽村矿</li>
+</ol>
+<ul>
+<li>PH  8.55</li>
+<li>硫酸根含量（mg/L 下同）3879.4</li>
+<li>氯离子含量  4099.1</li>
+<li>钙离子含量  441.0</li>
+<li>碳酸氢根离子含量  144.6</li>
+</ul>
+<ol start="17">
+<li>宁煤双马煤矿</li>
+</ol>
+<ul>
+<li>PH  7.85</li>
+<li>硫酸根含量（mg/L 下同）3596</li>
+<li>氯离子含量  28523</li>
+<li>钙离子含量  3172</li>
+<li>碳酸氢根离子含量  142.8</li>
+</ul>
+<ol start="18">
+<li>清水营煤矿</li>
+</ol>
+<ul>
+<li>PH  8.21</li>
+<li>硫酸根含量（mg/L 下同）1201</li>
+<li>氯离子含量  2698</li>
+<li>钙离子含量  1018</li>
+<li>碳酸氢根离子含量  240</li>
+</ul>
+<ol start="19">
+<li>金凤煤矿</li>
+</ol>
+<ul>
+<li>PH  8.12</li>
+<li>硫酸根含量（mg/L 下同）1989</li>
+<li>氯离子含量  2045</li>
+<li>钙离子含量  3323.6</li>
+<li>碳酸氢根离子含量  207.9</li>
+</ul>
+<ol start="20">
+<li>羊场湾煤矿</li>
+</ol>
+<ul>
+<li>PH  8.05</li>
+<li>硫酸根含量（mg/L 下同）2022</li>
+<li>氯离子含量  1752</li>
+<li>钙离子含量  2002</li>
+<li>碳酸氢根离子含量  136.2</li>
+</ul>
+<ol start="21">
+<li>中天合创矿</li>
+</ol>
+<ul>
+<li>PH  7.5</li>
+<li>硫酸根含量（mg/L 下同）4960</li>
+<li>氯离子含量  623</li>
+<li>钙离子含量  222</li>
+<li>碳酸氢根离子含量  301</li>
+</ul>
+<ol start="22">
+<li>大海则矿</li>
+</ol>
+<ul>
+<li>PH  7.9</li>
+<li>硫酸根含量（mg/L 下同）3482</li>
+<li>氯离子含量  199</li>
+<li>钙离子含量  313</li>
+<li>碳酸氢根离子含量 146</li>
+</ul>
+<ol start="23">
+<li>山西组8#煤层以上顶板水</li>
+</ol>
+<ul>
+<li>PH  7.4</li>
+<li>硫酸根含量（mg/L 下同）109.08</li>
+<li>氯离子含量  140.15</li>
+<li>钙离子含量  82.59</li>
+<li>碳酸氢根离子含量 427.97</li>
+</ul>
+<ol start="24">
+<li>太原组 13# 煤层以上顶板水</li>
+</ol>
+<ul>
+<li>PH  7.51</li>
+<li>硫酸根含量（mg/L 下同）123.20</li>
+<li>氯离子含量  115.58</li>
+<li>钙离子含量  101.35</li>
+<li>碳酸氢根离子含量 490.64</li>
+</ul>
+<ol start="25">
+<li>太原组 13# 煤层底板水</li>
+</ol>
+<ul>
+<li>PH  7.43</li>
+<li>硫酸根含量（mg/L 下同）169.96</li>
+<li>氯离子含量  202.02</li>
+<li>钙离子含量  106.75</li>
+<li>碳酸氢根离子含量 419.95</li>
+</ul>
+<ol start="26">
+<li>扒楼沟煤矿</li>
+</ol>
+<ul>
+<li>PH  7.91</li>
+<li>硫酸根含量（mg/L 下同）771.68</li>
+<li>氯离子含量  158.25</li>
+<li>钙离子含量  227.52</li>
+<li>碳酸氢根离子含量 529.36</li>
+</ul>
+<ol start="27">
+<li>高阳煤矿峰峰组</li>
+</ol>
+<ul>
+<li>PH  7.25</li>
+<li>硫酸根含量（mg/L 下同）919.08</li>
+<li>氯离子含量  91.97</li>
+<li>钙离子含量  93.01</li>
+<li>碳酸氢根离子含量 22.82</li>
+</ul>
+<ol start="28">
+<li>高阳煤矿上马家沟组</li>
+</ol>
+<ul>
+<li>PH  7.48</li>
+<li>硫酸根含量（mg/L 下同）175.75</li>
+<li>氯离子含量  119.72</li>
+<li>钙离子含量  61.28</li>
+<li>碳酸氢根离子含量 265.11</li>
+</ul>
+<ol start="29">
+<li>郭家滩煤矿</li>
+</ol>
+<ul>
+<li>PH  8.17</li>
+<li>硫酸根含量（mg/L 下同）136.3</li>
+<li>氯离子含量  10.29</li>
+<li>钙离子含量 62.43</li>
+<li>碳酸氢根离子含量 365</li>
+</ul>
+<ol start="30">
+<li>张集煤矿</li>
+</ol>
+<ul>
+<li>PH  8.33</li>
+<li>硫酸根含量（mg/L 下同）269.69</li>
+<li>氯离子含量  752.71</li>
+<li>钙离子含量 45.76</li>
+<li>碳酸氢根离子含量 690.03</li>
+</ul>
+<h1 id="本科生论文溶液浓度梯度">本科生论文溶液浓度梯度</h1>
+<ol>
+<li>氯离子浓度设置<br>
+50 100 300 500 1000<br>
+NaCl 克数：0.041 、0.082、0.247、0.412、0.824</li>
+<li>硫酸根离子浓度设置<br>
+100 500 1000 3000 5000<br>
+Na<sub>2</sub>SO<sub>4</sub><sup>2-</sup>克数：0.073、0.369、0.739、2.218、3.697</li>
+<li>氟离子浓度设置<br>
+1 3 5 10 30<br>
+NaF 克数：0.001、0.003、0.005、0.011、0.033</li>
+</ol>
+<h1 id="文献激光熔覆涂层数据整理">文献激光熔覆涂层数据整理</h1>
+<p><strong>（主要内容：溶液、电化学电位、自腐蚀电流密度、年腐蚀速率、极化电阻)</strong></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Springboot+vue项目 打包部署问题汇总]]></title>
+        <id>https://suntblog.top/post/springbootvue-xiang-mu-da-bao-bu-shu-wen-ti-hui-zong/</id>
+        <link href="https://suntblog.top/post/springbootvue-xiang-mu-da-bao-bu-shu-wen-ti-hui-zong/">
+        </link>
+        <updated>2023-03-23T13:13:16.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="打包">打包</h1>
+<ol>
+<li>springboot项目打包
+<ul>
+<li>后端打包，如果提示没有主类，可以在pom文件里面添加mainclass标签，添加主类</li>
+<li>打包时让项目先运行，然后在maven里面，先运行clean，再运行compile，再运行package，最后在target文件夹下，通过命令行运行jar包，运行命令java -jar  xxx.jar  如果提示端口占用，就关闭idea运行的程序，重新通过命令行运行jar包</li>
+</ul>
+</li>
+<li>vue项目打包
+<ul>
+<li>如果项目要上传服务器，需要就后端传输数据的axios地址 改为http://服务器ip地址:端口号</li>
+<li>项目打包用npm run build 命令，运行命令会生成dist文件夹</li>
+<li>本地演示，需在命令行，输入npm install -g live-server 全局安装live-server插件，然后进入dist文件夹，在终端输入 live-server 这时配合后端，项目可以在本地运行起来</li>
+</ul>
+</li>
+</ol>
+<h1 id="部署后端云服务器宝塔">部署后端（云服务器+宝塔）</h1>
+<ol>
+<li>购买云服务器，在安全组开放端口，需包括服务器后端端口，数据库端口，宝塔运行界面端口等</li>
+<li>通过shell软件远程连接服务器，安装宝塔</li>
+<li>登录宝塔网站后台，配置基本环境，<strong>在宝塔安全组放行，后端端口等</strong></li>
+<li>在宝塔软件商店安装，搜索Java，安装Java项目管理</li>
+<li>配置jdk
+<ul>
+<li>下载jdk，通过宝塔软件上传到文件</li>
+<li>切换到/user/local目录，在该目录下建立java这一子文件夹</li>
+<li>切换到jdk压缩包所在位置，解压压缩包到第二步建立的文件夹中去</li>
+<li>下面进行环境变量的配置，首先在/etc/profile.d目录下新建一个java.sh脚本</li>
+<li>通过宝塔设置，给该文件赋上可写和可执行权限</li>
+</ul>
+</li>
+</ol>
+<pre><code>    输入export JAVA_HOME=/usr/local/ java/jdk1.8.0_181（注意此文件名与你的要一样)
+    export PATH=$PATH:$JAVA_HOME/bin
+</code></pre>
+<ul>
+<li>然后使用source命令执行该脚本</li>
+</ul>
+<pre><code>        source java.sh
+</code></pre>
+<ul>
+<li>这时输入java -version 就可以看到java版本了</li>
+</ul>
+<ol start="6">
+<li>在宝塔网站页面，选择Java项目管理，添加JDK，选择好bin里的java，点击添加JDK</li>
+<li>在www/wwwroot目录下，新建项目文件夹，比如https , 上传JAR包到这个文件夹里</li>
+<li>在网站页面，添加Java项目，将项目用户改为root</li>
+<li>在Java项目设置里面看到，项目日志</li>
+</ol>
+<h1 id="部署数据库">部署数据库</h1>
+<ol>
+<li>在宝塔数据库页面，首先修改root密码，与项目本地密码一致</li>
+<li>然后添加数据库。数据库名与本地一致，用户名随便输，不能是root，访问权限就是本地服务器</li>
+<li>然后点导入，导入本地sql文件，点管理可以通过phpadmin 看到数据表</li>
+</ol>
+<h1 id="部署前端">部署前端</h1>
+<ol>
+<li>将dist文件夹压缩，上传到www/wwwroot目录下，新建项目文件夹，比如https下面</li>
+<li>解压，将解压后的文件，移动到https文件夹下面</li>
+<li>在网站里面，选择PHP项目，域名选择服务器地址，其他不需要变动，提交</li>
+<li>提交后，在设置里面。选择网站目录改为www/wwwroot/https 点击保存，下面根目录不变，点击保存</li>
+<li>这样前端也部署成功，输入服务器ip地址，就可以访问首页</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三分钟注册正版chatGPT4.0 (免翻）保姆级教程]]></title>
+        <id>https://suntblog.top/post/san-fen-zhong-zhu-ce-zheng-ban-chatgpt40-mian-fan-bao-mu-ji-jiao-cheng/</id>
+        <link href="https://suntblog.top/post/san-fen-zhong-zhu-ce-zheng-ban-chatgpt40-mian-fan-bao-mu-ji-jiao-cheng/">
+        </link>
+        <updated>2023-03-17T04:34:19.000Z</updated>
+        <content type="html"><![CDATA[<p>GPT4.0 明显感觉到质的提升，无论是逻辑思维，还是连续对话，还是一些有深度的问题，都非常像是一个超高智商的人类在和你进行对话。目前有ChatGpt账号也要付费20美元才能体验这个GPT4.0，下面跟着我三分钟搞定</p>
+<h1 id="步骤">步骤</h1>
+<ol>
+<li>
+<p>进入下面微软网址，点击启动VM模式<br>
+<a href="https://learn.microsoft.com/zh-cn/training/modules/implement-common-integration-features-finance-ops/10-exercise-1">https://learn.microsoft.com/zh-cn/training/modules/implement-common-integration-features-finance-ops/10-exercise-1</a><br>
+<img src="https://gitee.com/suntblog/img/raw/master/img/1.png" referrerpolicy="no-referrer" style="margin: auto;" /></p>
+</li>
+<li>
+<p>然后会让你登录微软的账号，登陆后会有一个加载过程，然后就能看到一个桌面登录界面<br>
+<img src="https://gitee.com/suntblog/img/raw/master/img/2.png" referrerpolicy="no-referrer" style="margin: auto;" /></p>
+</li>
+<li>
+<p>点击右上方的Resources，再点击PassWord，即可自动输入密码，然后就可以进入桌面了<br>
+<img src="https://gitee.com/suntblog/img/raw/master/img/3.png" referrerpolicy="no-referrer" style="margin: auto;" /></p>
+</li>
+<li>
+<p>这时候你就进入一个新的电脑界面，这是微软给用户提供的云桌面，6核12G内存，而且IP是国外的<br>
+<img src="https://gitee.com/suntblog/img/raw/master/img/4.png" referrerpolicy="no-referrer" style="margin: auto;" /></p>
+</li>
+<li>
+<p>然后打开这个新电脑的浏览器<br>
+<img src="https://gitee.com/suntblog/img/raw/master/img/5.png" referrerpolicy="no-referrer" style="margin: auto;" /></p>
+</li>
+<li>
+<p>在网页地址栏输入下面网址，也就是NEW BING的官网<br>
+<u>www.bing.com/new </u>      然后点击下方按钮（ Jointhe wait list）<br>
+<img src="https://gitee.com/suntblog/img/raw/master/img/6.png" referrerpolicy="no-referrer" style="margin: auto;" /></p>
+</li>
+<li>
+<p>然后就会让你再次输入微软账号，成功登陆之后就会直接跳转完成<br>
+<img src="https://gitee.com/suntblog/img/raw/master/img/7.png" referrerpolicy="no-referrer" style="margin: auto;" /></p>
+</li>
+<li>
+<p>这样就可以直接免费使用原版GPT4.0，如果你不会英文，你可以像我这样<br>
+<img src="https://gitee.com/suntblog/img/raw/master/img/8.png" referrerpolicy="no-referrer" style="margin: auto;" /></p>
+</li>
+</ol>
+<h1 id="小结">小结</h1>
+<p>众所周知，云服务一般很贵，何况6核12G内存的，所以除了试用GPT4.0之外，还可以不想直接在自己的电脑上安装，在云服务上试用软件，还可以做大型运算服务器的cpu运算速度比普通电脑快多了</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Origin 电化学作图教程]]></title>
+        <id>https://suntblog.top/post/origin-dian-hua-xue-zuo-tu-jiao-cheng/</id>
+        <link href="https://suntblog.top/post/origin-dian-hua-xue-zuo-tu-jiao-cheng/">
+        </link>
+        <updated>2023-03-09T11:12:42.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="origin-2022-下载与破解">origin 2022 下载与破解</h1>
+<p>软件下载： <a href="https://cowtransfer.com/s/c4103a9ffe1842">https://cowtransfer.com/s/c4103a9ffe1842</a> 解压密码：123456<br>
+安装教程：<a href="https://mp.weixin.qq.com/s/J2IHI19uJ2rcd_otvhvxbQ">https://mp.weixin.qq.com/s/J2IHI19uJ2rcd_otvhvxbQ</a></p>
+<h1 id="origin-作图规范">origin 作图规范</h1>
+<p>一般来说，英文字体用Times New Roman  中文字体用宋体，画图要有边框，可参照下图示例<br>
+<img src="https://gitee.com/suntblog/img/raw/master/img/origin.jpg" referrerpolicy="no-referrer" style="margin: auto;" /></p>
+<h1 id="origin-阻抗-塔菲尔-动电位模板与拟合插件">origin 阻抗、塔菲尔、动电位模板与拟合插件</h1>
+<p>模板和插件<a href="https://cowtransfer.com/s/33e3e7336abd41">https://cowtransfer.com/s/33e3e7336abd41</a></p>
+<h1 id="origin-示例图">origin 示例图</h1>
+<ol>
+<li>阻抗2：<img src="https://gitee.com/suntblog/img/raw/master/img/%E9%98%BB%E6%8A%972.png" referrerpolicy="no-referrer" style="margin: auto;" /></li>
+<li>阻抗3：<img src="https://gitee.com/suntblog/img/raw/master/img/%E9%98%BB%E6%8A%973.png" referrerpolicy="no-referrer" style="margin: auto;" /></li>
+<li>阻抗4：<img src="https://gitee.com/suntblog/img/raw/master/img/%E9%98%BB%E6%8A%974.png" referrerpolicy="no-referrer" style="margin: auto;" /></li>
+<li>塔菲尔与动电位：<img src="https://gitee.com/suntblog/img/raw/master/img/%E5%A1%94%E8%8F%B2%E5%B0%94&%E5%8A%A8%E7%94%B5%E4%BD%8D.png" referrerpolicy="no-referrer" style="margin: auto;" /></li>
+</ol>
+<h1 id="origin阻抗画图教程">origin阻抗画图教程</h1>
+<ol>
+<li>阻抗1不需要绘图</li>
+<li>阻抗2绘图步骤
+<ul>
+<li>可以新建一个excel用来储存数据和拷贝数据</li>
+<li>在excel中将纵坐标数据转换成绝对值</li>
+<li>将横纵数据，复制到origin工作表中</li>
+<li>如果数据过多，选择添加新列（注意x y轴 需要将列，设置为XY XY的形式）</li>
+<li>在绘图里面，选择模板库，上传下载好的模板</li>
+<li>全选数据，选择origin 塔菲尔模板，生成图像再进行细节修改（横纵坐标轴，图例等）</li>
+<li>保存好origin文件，再导出图形（文件——导出图形）</li>
+</ul>
+</li>
+<li>阻抗3绘图
+<ul>
+<li>将数据复制到origin工作表中</li>
+<li>选择模板，修改细节</li>
+<li>修改b图横纵坐标范围 （b图的意义是放大a图看不清的数据）</li>
+<li>保存导出</li>
+</ul>
+</li>
+<li>阻抗4绘图
+<ul>
+<li>将数据复制到origin工作表中，选择模板，绘图，修改细节，保存导出</li>
+</ul>
+</li>
+</ol>
+<h1 id="origin塔菲尔画图教程动电位类似">origin塔菲尔画图教程（动电位类似）</h1>
+<ol>
+<li>可以新建一个excel用来储存数据和拷贝数据</li>
+<li>在excel中将电流数据转换成绝对值</li>
+<li>将电流电压数据，复制到origin工作表中</li>
+<li>如果数据过多，选择添加新列（注意x y轴 需要将列，设置为XY XY的形式）</li>
+<li>在绘图里面，选择模板库，上传下载好的模板</li>
+<li>全选数据，选择origin 塔菲尔模板，生成图像再进行细节修改（横纵坐标轴，图例等）</li>
+<li>保存好origin文件，再导出图形（文件——导出图形）</li>
+</ol>
+<h1 id="origin单个动电位画图教程">origin单个动电位画图教程</h1>
+<ol>
+<li>横坐标是电流，纵坐标是电压，将电流数据转换成绝对值</li>
+<li>将电流电压数据，复制到origin工作表中</li>
+<li>在origin工作表中，对电流数据设置函数，log()</li>
+<li>选择模板，绘图，修改细节</li>
+<li>将Tangent插件导入到Apps中</li>
+<li>点插件设置切线，两条切线要与图像相切</li>
+<li>切点在自腐蚀电位，100mv左右</li>
+<li>删除时，双击文本，删除—确定，点垂线，点删除</li>
+<li>点读取屏幕精度，读取切点横纵坐标，添加到文本</li>
+<li>保存导出，注意在word复制数据时，要把取完对数的电流，变回来</li>
+</ol>
+]]></content>
+    </entry>
+</feed>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" href="https://suntblog.top//favicon.ico" type="image/x-icon" /><meta name="viewport"content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/><meta name="apple-mobile-web-app-capable"content="yes"/><meta name="apple-mobile-web-app-status-bar-style"content="black"/><meta name="format-detection"content="telephone=no"/><meta name="renderer"content="webkit"><meta name="description"content="别再emo，让我肩膀做你枕头"><meta charset="UTF-8"><title>Springboot+vue项目 打包部署问题汇总 | suntblog</title>
+<link href="https://suntblog.top//styles/main.css" type="text/css" rel="stylesheet" /><link href="https://at.alicdn.com/t/font_1621793_zatzzgvf30g.css" type="text/css" rel="stylesheet" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css"><script async src="https://cdn.jsdelivr.net/npm/busuanzi@2.3.0/bsz.pure.mini.min.js"></script><script src="https://suntblog.top//media/js/magnify.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js"></script>
+<script type="text/javascript">function btn_toggle(){document.getElementById("hn").classList.contains("no-js")?document.getElementById("hn").classList.remove("no-js"):document.getElementById("hn").classList.add("no-js")}</script>
+
+<link rel="canonical" href="https://suntblog.top/post/springbootvue-xiang-mu-da-bao-bu-shu-wen-ti-hui-zong/" />
+</head>
+<body>
+<div class="progress"></div><style>.progress{background:linear-gradient(to right,#87ceeb var(--scroll),transparent 0);background-repeat:no-repeat;position:fixed;width:100%;height:4px;z-index:1}</style><div class="darkmode-background"></div><div class="darkmode-layer"></div>
+<noscript><p class="warn" >本页面需要浏览器支持（启用）JavaScript</p></noscript><div class="header"><div class="logo_title"><div class="title animated fadeInDown"><a href="https://suntblog.top/"><img alt="logo" style="display:inline-block;" src="https://suntblog.top//images/avatar.png"/></a><h1 title="suntblog" class="weaklink"><a  href="/">suntblog</a></h1>
+
+<div class="navbar weaklink">
+<div class="normal_nav">
+<div class="bitcron_nav_container"><div class="bitcron_nav"><div class="bitcron_nav"><div style="display:flex;justify-content:center;"><nav class="mixed_site_nav_wrap site_nav_wrap"><ul class="mixed_site_nav site_nav sm sm-base">	<li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/" class="selected active current nav__item" >首页</a></li><li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/tags" class="selected active current nav__item" >标签</a></li><li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/post/about" class="selected active current nav__item" >关于</a></li></ul></nav>
+<div style="float:right;margin-top:1em"><form id="gridea-search-form" data-update="1578893743252" action="/search/index.html"><input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="Search..."></form></div><div style="margin-left:0.5em;margin-top:1.2em"><input id="switch_default" onclick="mobileBtn()" type="checkbox" class="switch_default"><label for="switch_default" class="toggleBtn"></label></div></div>
+<div class="clear clear_nav_inline_end"></div></div></div><div class="clear clear_nav_end"></div></div></div><div class="hamberger" href="javascript:void(0)" onclick="btn_toggle();"><i class="iconfont icon-category"></i></div></div></div></div>
+<div id="hn" class="no-js hidden_nav animated fadeInDown"><div class="bitcron_nav_container"><div class="bitcron_nav"><nav class="mixed_site_nav_wrap site_nav_wrap"><ul class="mixed_site_nav site_nav sm sm-base">	<li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/" class="selected active current nav__item" >首页</a></li><li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/tags" class="selected active current nav__item" >标签</a></li><li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/post/about" class="selected active current nav__item" >关于</a></li></ul><div class="clear clear_nav_inline_end"></div></nav></div><div class="clear clear_nav_end"></div></div>
+<div style="display:flex;justify-content:center;inline-block;text-align:center;margin-top:7%"><div><form id="gridea-search-form" data-update="1706018081795" action="/search/index.html"><input class="search-input" autocomplete="off" spellcheck="false" name="q"  placeholder="Search..." /></form></div><div style="margin-left:0.5em"><input id="switch_default_h" onclick="mobileBtn()" type="checkbox" class="switch_default"><label for="switch_default" class="toggleBtn"></label></div></div>
+</div></div>
+<script>function enableDarkmode(){document.body.classList.add("darkmode"),document.getElementById("switch_default").checked=1,document.getElementById("switch_default_h").checked=1}function removeDarkmode(){document.body.classList.remove("darkmode"),document.getElementById("switch_default").checked=0,document.getElementById("switch_default_h").checked=0}function getCookie(a){var b,c=new RegExp("(^| )"+a+"=([^;]*)(;|$)");return(b=document.cookie.match(c))?unescape(b[2]):null}cookie=getCookie("darkmode"),"enable"==cookie&&enableDarkmode(),window.matchMedia("(prefers-color-scheme: dark)").matches&&"disable"!==cookie&&(enableDarkmode(),document.cookie="darkmode=enable; path=/");var mobileBtn=function(){1==document.getElementById("switch_default").checked?(enableDarkmode(),document.cookie="darkmode=enable; path=/"):(removeDarkmode(),document.cookie="darkmode=disable; path=/")};</script>
+
+<div class="main"><div class="main-inner"><div class="content">
+<article class="post">
+<h2 class="post_title sm_margin"><a>Springboot+vue项目 打包部署问题汇总</a></h2>
+<script>function lan(){if(document.getElementById("lan").innerText=="繁"){var s=document.getElementById("tongwenlet_cn");if(s!=null){document.body.removeChild(s)}var s=document.createElement("script");s.language="javascript";s.type="text/javascript";s.src="https://cdn.jsdelivr.net/gh/qyxtim/Static@1.1/bookmarklet_tw.js";s.id="tongwenlet_cn";document.body.appendChild(s);document.getElementById("lan").innerHTML="简"}else{if(document.getElementById("lan").innerText=="簡"){var s=document.getElementById("tongwenlet_cn");if(s!=null){document.body.removeChild(s)}var s=document.createElement("script");s.language="javascript";s.type="text/javascript";s.src="https://cdn.jsdelivr.net/gh/qyxtim/Static@1.1/bookmarklet_cn.js";s.id="tongwenlet_cn";document.body.appendChild(s);document.getElementById("lan").innerHTML="繁"}}};</script>
+<section class="post_details"><i class="iconfont icon-calendar"></i><span style="margin-right:15px"> 2023-03-23</span><i class="iconfont icon-browse"></i><span style="margin-right:15px"> <span id="busuanzi_value_page_pv"></span> Views</span><i class="iconfont icon-category"></i><span class="weaklink" style="margin-right:15px"></span><i class="iconfont icon-caret-down"></i><span style="margin-right:15px">825字</span><i class="iconfont icon-naozhong"></i><span style="margin-right:15px">4 min read</span><a id="lan" href="javascript:void(0);"onclick="lan();"title="调整简繁体" style="margin-right:15px;">繁</a>
+</section>
+
+<div style="display:flex">
+<div class="md_block" id="md_block">
+<div class="round-shape-one"></div>
+<h1 id="打包">打包</h1>
+<ol>
+<li>springboot项目打包
+<ul>
+<li>后端打包，如果提示没有主类，可以在pom文件里面添加mainclass标签，添加主类</li>
+<li>打包时让项目先运行，然后在maven里面，先运行clean，再运行compile，再运行package，最后在target文件夹下，通过命令行运行jar包，运行命令java -jar  xxx.jar  如果提示端口占用，就关闭idea运行的程序，重新通过命令行运行jar包</li>
+</ul>
+</li>
+<li>vue项目打包
+<ul>
+<li>如果项目要上传服务器，需要就后端传输数据的axios地址 改为http://服务器ip地址:端口号</li>
+<li>项目打包用npm run build 命令，运行命令会生成dist文件夹</li>
+<li>本地演示，需在命令行，输入npm install -g live-server 全局安装live-server插件，然后进入dist文件夹，在终端输入 live-server 这时配合后端，项目可以在本地运行起来</li>
+</ul>
+</li>
+</ol>
+<h1 id="部署后端云服务器宝塔">部署后端（云服务器+宝塔）</h1>
+<ol>
+<li>购买云服务器，在安全组开放端口，需包括服务器后端端口，数据库端口，宝塔运行界面端口等</li>
+<li>通过shell软件远程连接服务器，安装宝塔</li>
+<li>登录宝塔网站后台，配置基本环境，<strong>在宝塔安全组放行，后端端口等</strong></li>
+<li>在宝塔软件商店安装，搜索Java，安装Java项目管理</li>
+<li>配置jdk
+<ul>
+<li>下载jdk，通过宝塔软件上传到文件</li>
+<li>切换到/user/local目录，在该目录下建立java这一子文件夹</li>
+<li>切换到jdk压缩包所在位置，解压压缩包到第二步建立的文件夹中去</li>
+<li>下面进行环境变量的配置，首先在/etc/profile.d目录下新建一个java.sh脚本</li>
+<li>通过宝塔设置，给该文件赋上可写和可执行权限</li>
+</ul>
+</li>
+</ol>
+<pre><code>    输入export JAVA_HOME=/usr/local/ java/jdk1.8.0_181（注意此文件名与你的要一样)
+    export PATH=$PATH:$JAVA_HOME/bin
+</code></pre>
+<ul>
+<li>然后使用source命令执行该脚本</li>
+</ul>
+<pre><code>        source java.sh
+</code></pre>
+<ul>
+<li>这时输入java -version 就可以看到java版本了</li>
+</ul>
+<ol start="6">
+<li>在宝塔网站页面，选择Java项目管理，添加JDK，选择好bin里的java，点击添加JDK</li>
+<li>在www/wwwroot目录下，新建项目文件夹，比如https , 上传JAR包到这个文件夹里</li>
+<li>在网站页面，添加Java项目，将项目用户改为root</li>
+<li>在Java项目设置里面看到，项目日志</li>
+</ol>
+<h1 id="部署数据库">部署数据库</h1>
+<ol>
+<li>在宝塔数据库页面，首先修改root密码，与项目本地密码一致</li>
+<li>然后添加数据库。数据库名与本地一致，用户名随便输，不能是root，访问权限就是本地服务器</li>
+<li>然后点导入，导入本地sql文件，点管理可以通过phpadmin 看到数据表</li>
+</ol>
+<h1 id="部署前端">部署前端</h1>
+<ol>
+<li>将dist文件夹压缩，上传到www/wwwroot目录下，新建项目文件夹，比如https下面</li>
+<li>解压，将解压后的文件，移动到https文件夹下面</li>
+<li>在网站里面，选择PHP项目，域名选择服务器地址，其他不需要变动，提交</li>
+<li>提交后，在设置里面。选择网站目录改为www/wwwroot/https 点击保存，下面根目录不变，点击保存</li>
+<li>这样前端也部署成功，输入服务器ip地址，就可以访问首页</li>
+</ol>
+
+<span id="footnote"></span>
+<div id = "warn"></div>
+</div>
+<div class="toc-container"><ul class="markdownIt-TOC">
+<li><a href="#%E6%89%93%E5%8C%85">打包</a></li>
+<li><a href="#%E9%83%A8%E7%BD%B2%E5%90%8E%E7%AB%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%9D%E5%A1%94">部署后端（云服务器+宝塔）</a></li>
+<li><a href="#%E9%83%A8%E7%BD%B2%E6%95%B0%E6%8D%AE%E5%BA%93">部署数据库</a></li>
+<li><a href="#%E9%83%A8%E7%BD%B2%E5%89%8D%E7%AB%AF">部署前端</a></li>
+</ul>
+</div>
+</div>
+<div id="fullPage"><canvas id="canvas"></canvas></div>
+</article>
+<div id="eof"><span>EOF</span></div><div class="round-shape-one"></div>
+<section>
+<div class="doc_comments">
+
+	  
+		<div id="gitalk-container"></div>
+		<!--评论显示区，请插入合适的位置-->
+<div id="comment"></div>
+<!--Leancloud 操作库:-->
+<script src="//cdn1.lncld.net/static/js/3.6.1/av-min.js"></script>
+<!--Valine 的核心代码库-->
+<script src="//cdn.jsdelivr.net/npm/valine@1.4.4/dist/Valine.min.js"></script>
+<script>
+    new Valine({
+        el:'#comment',
+        appId: 'i8roEkhaINs9JoeIgsxEGt3y-gzGzoHsz',
+        appKey: 'IrPV4FDDUdNQvYJHdeSK8FlK',
+        placeholder: 'ヾﾉ≧∀≦)o快来评论一下吧!',
+        avatar:''
+    });
+</script>
+
+	  
+		  
+	  
+
+</div></section>
+</div></div></div><script>
+"use strict";!function(){for(var n=document.getElementsByTagName("pre"),e=n.length,s=0;s<e;s++){n[s].innerHTML='<span class="line-number"></span>'+n[s].innerHTML+'<span class="cl"></span>';for(var a=n[s].innerHTML.split(/\n/).length,r=0;r<a-1;r++){n[s].getElementsByTagName("span")[0].innerHTML+="<span>"+(r+1)+"</span>"}}}();
+let mainNavLinks=document.querySelectorAll(".markdownIt-TOC a");window.addEventListener("scroll",event=>{let fromTop=window.scrollY;mainNavLinks.forEach((link,index)=>{let section=document.getElementById(decodeURI(link.hash).substring(1));let nextSection=null
+if(mainNavLinks[index+1]){nextSection=document.getElementById(decodeURI(mainNavLinks[index+1].hash).substring(1));}
+if(section.offsetTop<=fromTop){if(nextSection){if(nextSection.offsetTop>fromTop){link.classList.add("currentToc");}else{link.classList.remove("currentToc");}}else{link.classList.add("currentToc");}}else{link.classList.remove("currentToc");}});});
+var h=document.documentElement,b=document.body,st="scrollTop",sh="scrollHeight",progress=document.querySelector(".progress"),scroll;document.addEventListener("scroll",function(){scroll=(h[st]||b[st])/((h[sh]||b[sh])-h.clientHeight)*100;progress.style.setProperty("--scroll",scroll+"%")});
+var wxScale=new WxScale({fullPage:document.querySelector("#fullPage"),canvas:document.querySelector("#canvas")});var imgBox=document.querySelectorAll("#md_block img");for(var i=0;i<imgBox.length;i++){imgBox[i].onclick=function(e){wxScale.start(this)}};
+</script>
+<a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;"></a><div class="footer animated fadeInDown"><div class="site_footer"><div class="mysocials"><div class="my_socials"><a href="https://weibo.com/u/5984581068"title="weibo"><i class="iconfont icon-weibo"></i></a><a href="https://github.com/sunt12138"title="github"><i class="iconfont icon-github"></i></a><a href="https://www.zhihu.com/people/li-zhi-zuo-phpde-java"title="zhihu"><i class="iconfont icon-zhihu"></i></a></div></div><div class="copyright"id="copyright">另一个博客站  <a href="http://suntblog.gitee.io/" target="_blank">Suntblog</a>Copyright © 2017-2023 <a href="https://suntblog.top/" style="margin:0;">suntblog</a>.</div>
+<span style="display: inline;margin-right:15px;">👁<strong><span id="busuanzi_value_site_uv"></span></strong></span><span id="busuanzi_container_page_pv" style="display: inline;"><span>📚<strong>32</strong> posts</span></div></div>
+<script>
+console.log("\n %c \u26a1Theme: Bitcron-pro Author's Blog:https://blog.blinkstar.cn  Writen By Serence  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;", );
+</script>
+<script src="https://cdn.jsdelivr.net/npm/instant.page@3.0.0/instantpage.min.js" type="module" defer></script>
+<script type="text/javascript" async src="https://suntblog.top//media/js/prism.js"></script>
+</body>
+</html>

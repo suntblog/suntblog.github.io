@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" href="https://suntblog.top//favicon.ico" type="image/x-icon" /><meta name="viewport"content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/><meta name="apple-mobile-web-app-capable"content="yes"/><meta name="apple-mobile-web-app-status-bar-style"content="black"/><meta name="format-detection"content="telephone=no"/><meta name="renderer"content="webkit"><meta name="description"content="别再emo，让我肩膀做你枕头"><meta charset="UTF-8"><title>毕业大论文——矿井水数据的整理 | suntblog</title>
+<link href="https://suntblog.top//styles/main.css" type="text/css" rel="stylesheet" /><link href="https://at.alicdn.com/t/font_1621793_zatzzgvf30g.css" type="text/css" rel="stylesheet" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css"><script async src="https://cdn.jsdelivr.net/npm/busuanzi@2.3.0/bsz.pure.mini.min.js"></script><script src="https://suntblog.top//media/js/magnify.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js"></script>
+<script type="text/javascript">function btn_toggle(){document.getElementById("hn").classList.contains("no-js")?document.getElementById("hn").classList.remove("no-js"):document.getElementById("hn").classList.add("no-js")}</script>
+
+<link rel="canonical" href="https://suntblog.top/post/bi-ye-da-lun-wen-kuang-jing-shui-shu-ju-de-zheng-li/" />
+</head>
+<body>
+<div class="progress"></div><style>.progress{background:linear-gradient(to right,#87ceeb var(--scroll),transparent 0);background-repeat:no-repeat;position:fixed;width:100%;height:4px;z-index:1}</style><div class="darkmode-background"></div><div class="darkmode-layer"></div>
+<noscript><p class="warn" >本页面需要浏览器支持（启用）JavaScript</p></noscript><div class="header"><div class="logo_title"><div class="title animated fadeInDown"><a href="https://suntblog.top/"><img alt="logo" style="display:inline-block;" src="https://suntblog.top//images/avatar.png"/></a><h1 title="suntblog" class="weaklink"><a  href="/">suntblog</a></h1>
+
+<div class="navbar weaklink">
+<div class="normal_nav">
+<div class="bitcron_nav_container"><div class="bitcron_nav"><div class="bitcron_nav"><div style="display:flex;justify-content:center;"><nav class="mixed_site_nav_wrap site_nav_wrap"><ul class="mixed_site_nav site_nav sm sm-base">	<li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/" class="selected active current nav__item" >首页</a></li><li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/tags" class="selected active current nav__item" >标签</a></li><li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/post/about" class="selected active current nav__item" >关于</a></li></ul></nav>
+<div style="float:right;margin-top:1em"><form id="gridea-search-form" data-update="1578893743252" action="/search/index.html"><input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="Search..."></form></div><div style="margin-left:0.5em;margin-top:1.2em"><input id="switch_default" onclick="mobileBtn()" type="checkbox" class="switch_default"><label for="switch_default" class="toggleBtn"></label></div></div>
+<div class="clear clear_nav_inline_end"></div></div></div><div class="clear clear_nav_end"></div></div></div><div class="hamberger" href="javascript:void(0)" onclick="btn_toggle();"><i class="iconfont icon-category"></i></div></div></div></div>
+<div id="hn" class="no-js hidden_nav animated fadeInDown"><div class="bitcron_nav_container"><div class="bitcron_nav"><nav class="mixed_site_nav_wrap site_nav_wrap"><ul class="mixed_site_nav site_nav sm sm-base">	<li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/" class="selected active current nav__item" >首页</a></li><li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/tags" class="selected active current nav__item" >标签</a></li><li><a id="d2ef19af68cc211e98f8a0242ac110003" href="/post/about" class="selected active current nav__item" >关于</a></li></ul><div class="clear clear_nav_inline_end"></div></nav></div><div class="clear clear_nav_end"></div></div>
+<div style="display:flex;justify-content:center;inline-block;text-align:center;margin-top:7%"><div><form id="gridea-search-form" data-update="1706018081795" action="/search/index.html"><input class="search-input" autocomplete="off" spellcheck="false" name="q"  placeholder="Search..." /></form></div><div style="margin-left:0.5em"><input id="switch_default_h" onclick="mobileBtn()" type="checkbox" class="switch_default"><label for="switch_default" class="toggleBtn"></label></div></div>
+</div></div>
+<script>function enableDarkmode(){document.body.classList.add("darkmode"),document.getElementById("switch_default").checked=1,document.getElementById("switch_default_h").checked=1}function removeDarkmode(){document.body.classList.remove("darkmode"),document.getElementById("switch_default").checked=0,document.getElementById("switch_default_h").checked=0}function getCookie(a){var b,c=new RegExp("(^| )"+a+"=([^;]*)(;|$)");return(b=document.cookie.match(c))?unescape(b[2]):null}cookie=getCookie("darkmode"),"enable"==cookie&&enableDarkmode(),window.matchMedia("(prefers-color-scheme: dark)").matches&&"disable"!==cookie&&(enableDarkmode(),document.cookie="darkmode=enable; path=/");var mobileBtn=function(){1==document.getElementById("switch_default").checked?(enableDarkmode(),document.cookie="darkmode=enable; path=/"):(removeDarkmode(),document.cookie="darkmode=disable; path=/")};</script>
+
+<div class="main"><div class="main-inner"><div class="content">
+<article class="post">
+<h2 class="post_title sm_margin"><a>毕业大论文——矿井水数据的整理</a></h2>
+<script>function lan(){if(document.getElementById("lan").innerText=="繁"){var s=document.getElementById("tongwenlet_cn");if(s!=null){document.body.removeChild(s)}var s=document.createElement("script");s.language="javascript";s.type="text/javascript";s.src="https://cdn.jsdelivr.net/gh/qyxtim/Static@1.1/bookmarklet_tw.js";s.id="tongwenlet_cn";document.body.appendChild(s);document.getElementById("lan").innerHTML="简"}else{if(document.getElementById("lan").innerText=="簡"){var s=document.getElementById("tongwenlet_cn");if(s!=null){document.body.removeChild(s)}var s=document.createElement("script");s.language="javascript";s.type="text/javascript";s.src="https://cdn.jsdelivr.net/gh/qyxtim/Static@1.1/bookmarklet_cn.js";s.id="tongwenlet_cn";document.body.appendChild(s);document.getElementById("lan").innerHTML="繁"}}};</script>
+<section class="post_details"><i class="iconfont icon-calendar"></i><span style="margin-right:15px"> 2023-03-31</span><i class="iconfont icon-browse"></i><span style="margin-right:15px"> <span id="busuanzi_value_page_pv"></span> Views</span><i class="iconfont icon-category"></i><span class="weaklink" style="margin-right:15px">	<a href="https://suntblog.top/tag/MHA7_fk5M/" class="tag">毕业论文</a></span><i class="iconfont icon-caret-down"></i><span style="margin-right:15px">1807字</span><i class="iconfont icon-naozhong"></i><span style="margin-right:15px">8 min read</span><a id="lan" href="javascript:void(0);"onclick="lan();"title="调整简繁体" style="margin-right:15px;">繁</a>
+<font color=7D26CD>置顶</font></section>
+
+<div style="display:flex">
+<div class="md_block" id="md_block">
+<div class="round-shape-one"></div>
+<h1 id="一研究问题">一：研究问题</h1>
+<ol>
+<li>不同矿井水环境下，液压支架常用钢种（或涂层）的腐蚀速率<br>
+<strong>（可以先对一种钢材或涂层做实验)（如果时间充足，把要研究的涂层都预测一下）</strong></li>
+<li>总结论文数据，模拟矿井水环境下，不锈钢的腐蚀速率（不锈钢可能不是同一批次不锈钢）</li>
+</ol>
+<h1 id="二所需数据的类型">二：所需数据的类型</h1>
+<ol>
+<li>电化学电位 (mv)</li>
+<li>自腐蚀电流密度</li>
+<li>矿井水的PH值</li>
+<li>硫酸根含量 (mg/L)</li>
+<li>氯离子含量  (mg/L)</li>
+<li>年腐蚀速率（通过拟合再计算得到）</li>
+<li>极化电阻 （通过拟合再计算得到）</li>
+<li>氟离子含量 (mg/L)</li>
+</ol>
+<h1 id="三液压支架腐蚀数据表">三：液压支架腐蚀数据表</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">煤矿名称</th>
+<th style="text-align:center">电化学电位</th>
+<th style="text-align:center">自腐蚀电流密度</th>
+<th style="text-align:center"><font color="red">PH</font></th>
+<th style="text-align:center"><font color="red">硫酸根含量</font></th>
+<th style="text-align:center"><font color="red">氯离子含量</font></th>
+<th style="text-align:center">年腐蚀速率</th>
+<th style="text-align:center">极化电阻</th>
+<th style="text-align:center"><font color="red">钙离子含量</font></th>
+<th style="text-align:center"><font color="red">碳酸氢根离子含量</font></th>
+</tr>
+</thead>
+</table>
+<h1 id="四矿井水数据来源">四：矿井水数据来源</h1>
+<ul>
+<li><a href="http://www.ttbz.org.cn/StandardManage/Detail/36612">山西省煤炭地质工程协会发布的TSXDZ 042—2020《矿井水化学数据库技术标准》</a></li>
+<li><a href="https://baike.baidu.com/item/%E7%85%A4%E7%9F%BF%E7%9F%BF%E4%BA%95%E6%B0%B4%E5%A4%84%E7%90%86%E5%88%A9%E7%94%A8%E5%B7%A5%E8%89%BA%E6%8A%80%E6%9C%AF%E4%B8%8E%E8%AE%BE%E8%AE%A1/22253444?fr=aladdin">煤矿矿井水处理利用工艺技术与设计</a></li>
+<li><a href="https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7iLik5jEcCI09uHa3oBxtWoD8VK2Ubs1Wpv0Bx6xpSMYSBefzHQ8k75I2FNO-X9XD_&amp;uniplatform=NZKPT">文献：高矿化度矿井水用于燃煤锅炉除尘脱硫的可行性研究</a></li>
+<li><a href="https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKibYlV5Vjs7ioT0BO4yQ4m_mOgeS2ml3UHbZaP18z1gJArM5CIvJcDUmd12pn4dDXDs4iKqERTxY&amp;uniplatform=NZKPT">文献：神东矿区矿井水对锚索腐蚀影响实验研究</a></li>
+<li><a href="https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKgchrJ08w1e7M8Tu7YZds8-CGxaztL_uxiMtnsgmm7x49rwUyueMMXoj7HNf94V063wRugQgzWRf&amp;uniplatform=NZKPT">文献：山西高阳煤矿奥陶系峰峰组含水层赋存特征</a></li>
+<li><a href="https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKu87-SJxoEJu6LL9TJzd50nVTOz4KjqekVnwKyK6C3CJ2a2or4GgGBBLU6KmWDzYXT61AC5TudSk&amp;uniplatform=NZKPT">文献：蒙陕接壤区浅埋煤层矿井水水化学特征及来源分析</a></li>
+<li><a href="https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKu87-SJxoEJu6LL9TJzd50kTNcLWmQy5qWt4_H3PesC-CyEsPMZVB6TdR5G4IQOGpgW2ldsLCjfn&amp;uniplatform=NZKPT">文献：矿井水水化学特征及资源化利用研究——以张集煤矿为例</a></li>
+</ul>
+<h1 id="五矿井水数据整理s-cl-hco3-ca">五：矿井水数据整理（S、Cl、HCO<sub>3</sub>、Ca)</h1>
+<ol>
+<li>布尔台矿井</li>
+</ol>
+<ul>
+<li>PH  8.3</li>
+<li>硫酸根含量（mg/L 下同）68.6</li>
+<li>氯离子含量  265.3<br>
+- 钙离子含量  12.3</li>
+<li>碳酸氢根离子含量  20.6</li>
+</ul>
+<ol start="2">
+<li>东欢坨矿</li>
+</ol>
+<ul>
+<li>PH  7.46</li>
+<li>硫酸根含量（mg/L 下同）16</li>
+<li>氯离子含量  6</li>
+<li>钙离子含量  32.0977</li>
+<li>碳酸氢根离子含量 143.39</li>
+</ul>
+<ol start="3">
+<li>范各庄矿</li>
+</ol>
+<ul>
+<li>PH  7.7</li>
+<li>硫酸根含量（mg/L 下同）14.305</li>
+<li>氯离子含量  35.45</li>
+<li>钙离子含量  89.88</li>
+<li>碳酸氢根离子含量 336.65</li>
+</ul>
+<ol start="4">
+<li>荆各庄矿</li>
+</ol>
+<ul>
+<li>PH  8.4</li>
+<li>硫酸根含量（mg/L 下同）57.7</li>
+<li>氯离子含量  2.6</li>
+<li>钙离子含量 11.95</li>
+<li>碳酸氢根离子含量  255.6</li>
+</ul>
+<ol start="5">
+<li>林西矿</li>
+</ol>
+<ul>
+<li>PH  8.1</li>
+<li>硫酸根含量（mg/L 下同）574</li>
+<li>氯离子含量  11.8</li>
+<li>钙离子含量  112.27</li>
+<li>碳酸氢根离子含量 296.12</li>
+</ul>
+<ol start="6">
+<li>马家沟矿</li>
+</ol>
+<ul>
+<li>PH  7.8</li>
+<li>硫酸根含量（mg/L 下同）116</li>
+<li>氯离子含量  7.7</li>
+<li>钙离子含量  107.4135</li>
+<li>碳酸氢根离子含量 342.88</li>
+</ul>
+<ol start="7">
+<li>唐山矿</li>
+</ol>
+<ul>
+<li>PH  7</li>
+<li>硫酸根含量（mg/L 下同）59.5</li>
+<li>氯离子含量  3.1</li>
+<li>钙离子含量  58.449</li>
+<li>碳酸氢根离子含量  374</li>
+</ul>
+<ol start="8">
+<li>赵各庄矿</li>
+</ol>
+<ul>
+<li>PH  7</li>
+<li>硫酸根含量（mg/L 下同）0.009</li>
+<li>氯离子含量  8.4</li>
+<li>钙离子含量 127.34</li>
+<li>碳酸氢根离子含量 364.7</li>
+</ul>
+<ol start="9">
+<li>内蒙古乌素矿</li>
+</ol>
+<ul>
+<li>PH  9.0</li>
+<li>硫酸根含量（mg/L 下同）1026.3</li>
+<li>氯离子含量  412.7</li>
+<li>钙离子含量 240.5</li>
+<li>碳酸氢根离子含量 421.6</li>
+</ul>
+<ol start="10">
+<li>徐州张集矿</li>
+</ol>
+<ul>
+<li>PH  7.5</li>
+<li>硫酸根含量（mg/L 下同）472</li>
+<li>氯离子含量  250.4</li>
+<li>钙离子含量  104.0</li>
+<li>碳酸氢根离子含量  416.0</li>
+</ul>
+<ol start="11">
+<li>淄博双沟矿</li>
+</ol>
+<ul>
+<li>PH  7.7</li>
+<li>硫酸根含量（mg/L 下同）882</li>
+<li>氯离子含量  182</li>
+<li>钙离子含量 192.0</li>
+<li>碳酸氢根离子含量  257.0</li>
+</ul>
+<ol start="12">
+<li>淮北临涣矿</li>
+</ol>
+<ul>
+<li>PH  8.1</li>
+<li>硫酸根含量（mg/L 下同）1589.6</li>
+<li>氯离子含量  213</li>
+<li>钙离子含量  441.7</li>
+<li>碳酸氢根离子含量 320.3</li>
+</ul>
+<ol start="13">
+<li>新汶全沟矿</li>
+</ol>
+<ul>
+<li>PH  8.0</li>
+<li>硫酸根含量（mg/L 下同）1094.5</li>
+<li>氯离子含量  107.7</li>
+<li>钙离子含量 242.9</li>
+<li>碳酸氢根离子含量 98.8</li>
+</ul>
+<ol start="14">
+<li>宁夏灵新矿</li>
+</ol>
+<ul>
+<li>PH  8.2</li>
+<li>硫酸根含量（mg/L 下同）884.3</li>
+<li>氯离子含量  1193.6</li>
+<li>钙离子含量  124.0</li>
+<li>碳酸氢根离子含量  391.8</li>
+</ul>
+<ol start="15">
+<li>淮北海孜矿</li>
+</ol>
+<ul>
+<li>PH  8.5</li>
+<li>硫酸根含量（mg/L 下同）1028</li>
+<li>氯离子含量  146</li>
+<li>钙离子含量  78.6</li>
+<li>碳酸氢根离子含量  355.0</li>
+</ul>
+<ol start="16">
+<li>宁夏石槽村矿</li>
+</ol>
+<ul>
+<li>PH  8.55</li>
+<li>硫酸根含量（mg/L 下同）3879.4</li>
+<li>氯离子含量  4099.1</li>
+<li>钙离子含量  441.0</li>
+<li>碳酸氢根离子含量  144.6</li>
+</ul>
+<ol start="17">
+<li>宁煤双马煤矿</li>
+</ol>
+<ul>
+<li>PH  7.85</li>
+<li>硫酸根含量（mg/L 下同）3596</li>
+<li>氯离子含量  28523</li>
+<li>钙离子含量  3172</li>
+<li>碳酸氢根离子含量  142.8</li>
+</ul>
+<ol start="18">
+<li>清水营煤矿</li>
+</ol>
+<ul>
+<li>PH  8.21</li>
+<li>硫酸根含量（mg/L 下同）1201</li>
+<li>氯离子含量  2698</li>
+<li>钙离子含量  1018</li>
+<li>碳酸氢根离子含量  240</li>
+</ul>
+<ol start="19">
+<li>金凤煤矿</li>
+</ol>
+<ul>
+<li>PH  8.12</li>
+<li>硫酸根含量（mg/L 下同）1989</li>
+<li>氯离子含量  2045</li>
+<li>钙离子含量  3323.6</li>
+<li>碳酸氢根离子含量  207.9</li>
+</ul>
+<ol start="20">
+<li>羊场湾煤矿</li>
+</ol>
+<ul>
+<li>PH  8.05</li>
+<li>硫酸根含量（mg/L 下同）2022</li>
+<li>氯离子含量  1752</li>
+<li>钙离子含量  2002</li>
+<li>碳酸氢根离子含量  136.2</li>
+</ul>
+<ol start="21">
+<li>中天合创矿</li>
+</ol>
+<ul>
+<li>PH  7.5</li>
+<li>硫酸根含量（mg/L 下同）4960</li>
+<li>氯离子含量  623</li>
+<li>钙离子含量  222</li>
+<li>碳酸氢根离子含量  301</li>
+</ul>
+<ol start="22">
+<li>大海则矿</li>
+</ol>
+<ul>
+<li>PH  7.9</li>
+<li>硫酸根含量（mg/L 下同）3482</li>
+<li>氯离子含量  199</li>
+<li>钙离子含量  313</li>
+<li>碳酸氢根离子含量 146</li>
+</ul>
+<ol start="23">
+<li>山西组8#煤层以上顶板水</li>
+</ol>
+<ul>
+<li>PH  7.4</li>
+<li>硫酸根含量（mg/L 下同）109.08</li>
+<li>氯离子含量  140.15</li>
+<li>钙离子含量  82.59</li>
+<li>碳酸氢根离子含量 427.97</li>
+</ul>
+<ol start="24">
+<li>太原组 13# 煤层以上顶板水</li>
+</ol>
+<ul>
+<li>PH  7.51</li>
+<li>硫酸根含量（mg/L 下同）123.20</li>
+<li>氯离子含量  115.58</li>
+<li>钙离子含量  101.35</li>
+<li>碳酸氢根离子含量 490.64</li>
+</ul>
+<ol start="25">
+<li>太原组 13# 煤层底板水</li>
+</ol>
+<ul>
+<li>PH  7.43</li>
+<li>硫酸根含量（mg/L 下同）169.96</li>
+<li>氯离子含量  202.02</li>
+<li>钙离子含量  106.75</li>
+<li>碳酸氢根离子含量 419.95</li>
+</ul>
+<ol start="26">
+<li>扒楼沟煤矿</li>
+</ol>
+<ul>
+<li>PH  7.91</li>
+<li>硫酸根含量（mg/L 下同）771.68</li>
+<li>氯离子含量  158.25</li>
+<li>钙离子含量  227.52</li>
+<li>碳酸氢根离子含量 529.36</li>
+</ul>
+<ol start="27">
+<li>高阳煤矿峰峰组</li>
+</ol>
+<ul>
+<li>PH  7.25</li>
+<li>硫酸根含量（mg/L 下同）919.08</li>
+<li>氯离子含量  91.97</li>
+<li>钙离子含量  93.01</li>
+<li>碳酸氢根离子含量 22.82</li>
+</ul>
+<ol start="28">
+<li>高阳煤矿上马家沟组</li>
+</ol>
+<ul>
+<li>PH  7.48</li>
+<li>硫酸根含量（mg/L 下同）175.75</li>
+<li>氯离子含量  119.72</li>
+<li>钙离子含量  61.28</li>
+<li>碳酸氢根离子含量 265.11</li>
+</ul>
+<ol start="29">
+<li>郭家滩煤矿</li>
+</ol>
+<ul>
+<li>PH  8.17</li>
+<li>硫酸根含量（mg/L 下同）136.3</li>
+<li>氯离子含量  10.29</li>
+<li>钙离子含量 62.43</li>
+<li>碳酸氢根离子含量 365</li>
+</ul>
+<ol start="30">
+<li>张集煤矿</li>
+</ol>
+<ul>
+<li>PH  8.33</li>
+<li>硫酸根含量（mg/L 下同）269.69</li>
+<li>氯离子含量  752.71</li>
+<li>钙离子含量 45.76</li>
+<li>碳酸氢根离子含量 690.03</li>
+</ul>
+<h1 id="本科生论文溶液浓度梯度">本科生论文溶液浓度梯度</h1>
+<ol>
+<li>氯离子浓度设置<br>
+50 100 300 500 1000<br>
+NaCl 克数：0.041 、0.082、0.247、0.412、0.824</li>
+<li>硫酸根离子浓度设置<br>
+100 500 1000 3000 5000<br>
+Na<sub>2</sub>SO<sub>4</sub><sup>2-</sup>克数：0.073、0.369、0.739、2.218、3.697</li>
+<li>氟离子浓度设置<br>
+1 3 5 10 30<br>
+NaF 克数：0.001、0.003、0.005、0.011、0.033</li>
+</ol>
+<h1 id="文献激光熔覆涂层数据整理">文献激光熔覆涂层数据整理</h1>
+<p><strong>（主要内容：溶液、电化学电位、自腐蚀电流密度、年腐蚀速率、极化电阻)</strong></p>
+
+<span id="footnote"></span>
+<div id = "warn"></div>
+</div>
+<div class="toc-container"><ul class="markdownIt-TOC">
+<li><a href="#%E4%B8%80%E7%A0%94%E7%A9%B6%E9%97%AE%E9%A2%98">一：研究问题</a></li>
+<li><a href="#%E4%BA%8C%E6%89%80%E9%9C%80%E6%95%B0%E6%8D%AE%E7%9A%84%E7%B1%BB%E5%9E%8B">二：所需数据的类型</a></li>
+<li><a href="#%E4%B8%89%E6%B6%B2%E5%8E%8B%E6%94%AF%E6%9E%B6%E8%85%90%E8%9A%80%E6%95%B0%E6%8D%AE%E8%A1%A8">三：液压支架腐蚀数据表</a></li>
+<li><a href="#%E5%9B%9B%E7%9F%BF%E4%BA%95%E6%B0%B4%E6%95%B0%E6%8D%AE%E6%9D%A5%E6%BA%90">四：矿井水数据来源</a></li>
+<li><a href="#%E4%BA%94%E7%9F%BF%E4%BA%95%E6%B0%B4%E6%95%B0%E6%8D%AE%E6%95%B4%E7%90%86s-cl-hco3-ca">五：矿井水数据整理（S、Cl、HCO~3~、Ca)</a></li>
+<li><a href="#%E6%9C%AC%E7%A7%91%E7%94%9F%E8%AE%BA%E6%96%87%E6%BA%B6%E6%B6%B2%E6%B5%93%E5%BA%A6%E6%A2%AF%E5%BA%A6">本科生论文溶液浓度梯度</a></li>
+<li><a href="#%E6%96%87%E7%8C%AE%E6%BF%80%E5%85%89%E7%86%94%E8%A6%86%E6%B6%82%E5%B1%82%E6%95%B0%E6%8D%AE%E6%95%B4%E7%90%86">文献激光熔覆涂层数据整理</a></li>
+</ul>
+</div>
+</div>
+<div id="fullPage"><canvas id="canvas"></canvas></div>
+</article>
+<div id="eof"><span>EOF</span></div><div class="round-shape-one"></div>
+<section>
+<div class="doc_comments">
+
+	  
+		<div id="gitalk-container"></div>
+		<!--评论显示区，请插入合适的位置-->
+<div id="comment"></div>
+<!--Leancloud 操作库:-->
+<script src="//cdn1.lncld.net/static/js/3.6.1/av-min.js"></script>
+<!--Valine 的核心代码库-->
+<script src="//cdn.jsdelivr.net/npm/valine@1.4.4/dist/Valine.min.js"></script>
+<script>
+    new Valine({
+        el:'#comment',
+        appId: 'i8roEkhaINs9JoeIgsxEGt3y-gzGzoHsz',
+        appKey: 'IrPV4FDDUdNQvYJHdeSK8FlK',
+        placeholder: 'ヾﾉ≧∀≦)o快来评论一下吧!',
+        avatar:''
+    });
+</script>
+
+	  
+		  
+	  
+
+</div></section>
+</div></div></div><script>
+"use strict";!function(){for(var n=document.getElementsByTagName("pre"),e=n.length,s=0;s<e;s++){n[s].innerHTML='<span class="line-number"></span>'+n[s].innerHTML+'<span class="cl"></span>';for(var a=n[s].innerHTML.split(/\n/).length,r=0;r<a-1;r++){n[s].getElementsByTagName("span")[0].innerHTML+="<span>"+(r+1)+"</span>"}}}();
+let mainNavLinks=document.querySelectorAll(".markdownIt-TOC a");window.addEventListener("scroll",event=>{let fromTop=window.scrollY;mainNavLinks.forEach((link,index)=>{let section=document.getElementById(decodeURI(link.hash).substring(1));let nextSection=null
+if(mainNavLinks[index+1]){nextSection=document.getElementById(decodeURI(mainNavLinks[index+1].hash).substring(1));}
+if(section.offsetTop<=fromTop){if(nextSection){if(nextSection.offsetTop>fromTop){link.classList.add("currentToc");}else{link.classList.remove("currentToc");}}else{link.classList.add("currentToc");}}else{link.classList.remove("currentToc");}});});
+var h=document.documentElement,b=document.body,st="scrollTop",sh="scrollHeight",progress=document.querySelector(".progress"),scroll;document.addEventListener("scroll",function(){scroll=(h[st]||b[st])/((h[sh]||b[sh])-h.clientHeight)*100;progress.style.setProperty("--scroll",scroll+"%")});
+var wxScale=new WxScale({fullPage:document.querySelector("#fullPage"),canvas:document.querySelector("#canvas")});var imgBox=document.querySelectorAll("#md_block img");for(var i=0;i<imgBox.length;i++){imgBox[i].onclick=function(e){wxScale.start(this)}};
+</script>
+<a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;"></a><div class="footer animated fadeInDown"><div class="site_footer"><div class="mysocials"><div class="my_socials"><a href="https://weibo.com/u/5984581068"title="weibo"><i class="iconfont icon-weibo"></i></a><a href="https://github.com/sunt12138"title="github"><i class="iconfont icon-github"></i></a><a href="https://www.zhihu.com/people/li-zhi-zuo-phpde-java"title="zhihu"><i class="iconfont icon-zhihu"></i></a></div></div><div class="copyright"id="copyright">另一个博客站  <a href="http://suntblog.gitee.io/" target="_blank">Suntblog</a>Copyright © 2017-2023 <a href="https://suntblog.top/" style="margin:0;">suntblog</a>.</div>
+<span style="display: inline;margin-right:15px;">👁<strong><span id="busuanzi_value_site_uv"></span></strong></span><span id="busuanzi_container_page_pv" style="display: inline;"><span>📚<strong>32</strong> posts</span></div></div>
+<script>
+console.log("\n %c \u26a1Theme: Bitcron-pro Author's Blog:https://blog.blinkstar.cn  Writen By Serence  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;", );
+</script>
+<script src="https://cdn.jsdelivr.net/npm/instant.page@3.0.0/instantpage.min.js" type="module" defer></script>
+<script type="text/javascript" async src="https://suntblog.top//media/js/prism.js"></script>
+</body>
+</html>
